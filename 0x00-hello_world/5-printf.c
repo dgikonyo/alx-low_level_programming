@@ -2,8 +2,7 @@
 /*
  * main - entry point
  *
- * Description: Prints "with proper grammar, but the outcome is a piece 
- * of art"
+ * Description: Prints "with proper grammar, but the outcome is a piece of art"
  *
  * Return : 0 for success
  */
