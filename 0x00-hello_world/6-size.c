@@ -1,7 +1,14 @@
 #include <stdio.h>
 
-
-int main (void)
+/*
+ * main -entry point
+ *
+ * Description: Prints the size o various types on the computer it is
+ * compiled on and run on
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
 {
 	int aInt;
 	long int longInt;
