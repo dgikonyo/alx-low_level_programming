@@ -6,7 +6,7 @@
  *
  * Description: print Dora's quote
  *
- * Return: Always 1 (Success) 
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
