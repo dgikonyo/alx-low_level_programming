@@ -1,5 +1,11 @@
 #include "main.h"
-/**/
+/**
+ * jack_bauer - prints every minute of the day
+ *
+ * Description: prints every minute of the day
+ *
+ * Return: void
+ */
 
 void jack_bauer(void)
 {
@@ -18,7 +24,7 @@ void jack_bauer(void)
 		while (hours_ones < hours_max)
 		{
 			minutes_tens = '0';
-			while(minutes_tens < '6')
+			while (minutes_tens < '6')
 			{
 				_putchar(hours_tens);
 				_putchar(hours_ones);
@@ -31,7 +37,7 @@ void jack_bauer(void)
 			minutes_ones = '0';
 			minutes_tens++;
 		}
-		hours_ones='0';
+		hours_ones = '0';
 		hours_tens++;
 	}
 }
