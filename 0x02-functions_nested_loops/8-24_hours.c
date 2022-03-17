@@ -38,9 +38,11 @@ void jack_bauer(void)
 					_putchar('\n');
 					minutes_ones++;
 				}
+				minutes_ones = '0';
+				minutes_tens++;
 			}
-			minutes_ones = '0';
-			minutes_tens++;
+			minutes_tens = '0';
+			hours_ones++;
 		}
 		hours_ones = '0';
 		hours_tens++;
