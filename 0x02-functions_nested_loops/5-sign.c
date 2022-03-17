@@ -6,9 +6,9 @@
  */
 int print_sign(int n)
 {
-	int n=0;
-	char posSign='+';
-	char negSign='-';
+	int n = 0;
+	char posSign = '+';
+	char negSign = '-';
 
 
 	if (n > 0)
