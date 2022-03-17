@@ -1,15 +1,16 @@
 #include "main.h"
 
-/*
- * add - returns two integers and returns the result
+/**
+ * main - check the code
  *
- * @a: int type number
- * @b: int type number
- *
- * Return: 0
+ * Return: Always 0.
  */
-
-int add(int a, int b)
+int main(void)
 {
-	return (a + b);
+    print_to_98(0);
+    print_to_98(98);
+    print_to_98(111);
+    print_to_98(81);
+    print_to_98(-10);
+    return (0);
 }
