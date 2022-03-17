@@ -1,9 +1,9 @@
 #include "main.h"
 /*
- *_isalpha - checks for alphabetic character
- * @c: c is an ascii charcter
+ *_isalpha - checks for lower case letter
+ * @c: character to check
  *
- * Return: 1 (if letter)
+ * Return:0 or 1
  */
 
 int _isalpha(int c)
