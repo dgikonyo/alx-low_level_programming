@@ -1,12 +1,13 @@
 #include "main.h"
 
 void print_to_98(int n)
-{
+{	int i;
+
 	if (n > 98)
 	{
-		for (n; n >= 98; n--)
+		for (i = n; i >= 98; i--)
 		{
-			_putchar(n);
+			_putchar(i);
 			_putchar(',');
 			_putchar(' ');
 		}
@@ -17,9 +18,9 @@ void print_to_98(int n)
 	}
 	else
 	{
-		for (n; n <= 98;n++)
+		for (i = n; i <= 98; i++)
 		{
-			_putchar(n);
+			_putchar(i);
 			_putchar(',');
 			_putchar(' ');
 		}
