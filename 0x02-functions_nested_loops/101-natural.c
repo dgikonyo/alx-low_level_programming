@@ -10,8 +10,9 @@ int main(void)
 {
 	int max = 1024;
 	int sum = 0;
+	int i;
 
-	for (int i = 0; i < max; i++)
+	for (i = 0; i < max; i++)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
 		{
@@ -19,7 +20,7 @@ int main(void)
 		}
 
 	}
-	printf("%d\n", sum
-			)
+	printf("%d\n", sum);
+
 	return (0);
 }
