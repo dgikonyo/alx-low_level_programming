@@ -11,11 +11,11 @@ int main(void)
 		for (j = 2; j < sizeof(f) - 1; j++)
 		{
 			if ( i == 1 || j == 2){
-				printf("%d\n", i);
+				printf("%u\n", i);
 			}
 			f[i] = f[i - 1] + f[j];
 		}
-		printf("%d\n", f[i]);
+		printf("%u\n", f[i]);
 	}
 	return (0);
 }
