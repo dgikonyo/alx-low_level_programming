@@ -2,18 +2,16 @@
 
 int main(void)
 {	
-	unsigned int i;
-	int f[51];
+	int i;
+	int fib[n + 2];
+	fib[0] = 1;
+	fib[1] = 2;
 
-	for (i = 1; i < sizeof(f); i++)
+	for (i = 3; i < 50; i++)
 	{
-		if ( i == 1 || i == 2)
-		{
-			printf("%u\n", i);
-		}
-		f[i] = f[i - 1] + f[1 - 2];
+		fib[i] = fib[i - 1] + fib[i - 2];
 		
-		printf("%u\n", f[i]);
+		printf("%u\n", fib[i]);
 	}
 	return (0);
 }
