@@ -2,13 +2,17 @@
 
 int main(void)
 {	
-	int i = 1;
-	int j = i - 2;
+	int i;
+	int j;
 	int f[51];
 
-	for (i; i <= 50; i++)
+	for (i = 1; i <= 50; i++)
 	{
-		for (j; j < 50; j++)
+		if (i == 1 || i == 2)
+		{
+			printf("%d\n");
+		}
+		for (j = i - 2; j < 50; j++)
 		{
 			if ( i == 1 || i == 2){
 				printf("%d\n", i);
