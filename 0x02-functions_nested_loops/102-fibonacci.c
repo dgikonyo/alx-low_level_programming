@@ -2,7 +2,6 @@
 
 int main(void)
 {	
-	//formua f=f(n-1) + f(n-2)
 	int i = 1;
 	int j = i - 2;
 	int f[51];
