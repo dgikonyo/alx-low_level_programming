@@ -10,7 +10,7 @@ int main(void)
 	{
 		if (i == 1 || i == 2)
 		{
-			printf("%d\n");
+			printf("%d\n", i);
 		}
 		for (j = i - 2; j < 50; j++)
 		{
