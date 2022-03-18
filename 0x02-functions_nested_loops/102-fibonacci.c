@@ -2,8 +2,8 @@
 
 int main(void)
 {	
-	long unsigned int i;
-	long unsigned int j;
+	unsigned int i;
+	unsigned int j;
 	int f[51];
 
 	for (i = 1; i < sizeof(f); i++)
