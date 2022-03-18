@@ -11,6 +11,8 @@ void print_times_table(int n)
 		{
 			for (column = 0; column <= n; column++)
 			{
+				product = row * column;
+
 				if (column == 0)
 				{
 					_putchar('0');
