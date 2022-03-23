@@ -13,8 +13,8 @@ int main(void)
 	sum = 0;
 
 	for (count = 1; count <= 33; ++count)
-	{	
-		if( j < 4000000 && (j % 2) == 0)
+	{
+		if (j < 4000000 && (j % 2) == 0)
 		{
 			sum = sum + j;
 		}
