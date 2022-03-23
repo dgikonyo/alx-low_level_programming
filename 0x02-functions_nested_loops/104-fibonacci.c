@@ -9,7 +9,7 @@ int main(void)
 	for (count = 1; count <= 98; ++count)
 	{
 		if (count == 98)
-		{i
+		{
 			printf("%ld\n", j);
 		}
 		else
