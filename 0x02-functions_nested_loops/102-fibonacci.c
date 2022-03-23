@@ -12,8 +12,8 @@ int main(void)
 	j = 1;
 	k = 2;
 	next = j + k;
-	printf("%lu, %lu,", j, k);
-	for (i = 1; i <= 98; i++)
+	printf("\n%lu, %lu, ", j, k);
+	for (i = 3; i <= 98; ++i)
 	{
 		printf("%lu, ", next);
 		j = k;
