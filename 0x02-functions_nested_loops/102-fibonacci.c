@@ -13,12 +13,19 @@ int main(void)
 	k = 2;
 	i = 2;
 	next = j + k;
-	printf(" %lu, %lu", j, k);
+	printf("%lu, %lu", j, k);
 	while (i < 50)
 	{
+		if (j != 20365011074)
+		{
+			printf(", %lu", j);
+		}
+		else
+		{
+			printf("%lu\n", j);
+		}
 		next = j + k;
 		i++;
-		printf(", %lu", next);
 		j = k;
 		k = next;
 	}
