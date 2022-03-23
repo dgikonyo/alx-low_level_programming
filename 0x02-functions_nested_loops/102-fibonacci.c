@@ -11,13 +11,14 @@ int main(void)
 
 	j = 1;
 	k = 2;
-
+	next = j + k;
+	printf("%lu, %lu,", j, k);
 	for (i = 1; i <= 98; ++i)
 	{
-		next = j + k;
+		printf("%lu, ", next);
 		j = k;
 		k = next;
-		printf(", \n");
+		next = j + k;
 	}
 
 	return (0);
