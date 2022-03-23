@@ -11,10 +11,10 @@ int main(void)
 	
 	j = 1;
 	k = 2;
-	i = 0;
+	i = 2;
 	next = j + k;
 	printf("%lu, %lu, ", j, k);
-	while ( i < 50)
+	while (i < 50)
 	{
 		next = j + k;
 		i++;
