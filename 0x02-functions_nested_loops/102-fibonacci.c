@@ -7,21 +7,21 @@
  */
 int main(void)
 {
-	unsigned long int i, j, k, next;
+	int i, j, k, next;
 
 	j = 1;
 	k = 2;
-	printf("%lu, %lu", j, k);
+	printf("%d, %d", j, k);
 	for (i = 3; i <= 50; ++i)
 	{
 		next = j + k;
 		if (j != 20365011074)
 		{
-			printf(", %lu", next);
+			printf(", %d", next);
 		}
 		else
 		{
-			printf("%lu\n", next);
+			printf("%d\n", next);
 		}
 		j = k;
 		k = next;
