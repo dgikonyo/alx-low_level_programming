@@ -15,14 +15,6 @@ int main(void)
 	printf("%lu, %lu,", j, k);
 	for (i = 1; i <= 98; i++)
 	{
-		if (j != 20365011074)
-		{
-			printf("%lu, ", j);
-		}
-		else
-		{
-			printf("%lu\n", j);
-		}
 		printf("%lu, ", next);
 		j = k;
 		k = next;
