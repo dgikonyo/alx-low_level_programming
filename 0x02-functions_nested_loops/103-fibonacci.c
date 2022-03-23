@@ -10,20 +10,17 @@ int main(void)
 
 	j = 1;
 	k = 2;
-	count = 2;
-	sum = 2;
+	sum = 0;
 
-	while (count > 0)
-	{
+	for (count = 1; count <= 33; ++count)
+	{	
+		if( j < 4000000 && (j % 2) == 0)
+		{
+			sum = sum + j;
+		}
 		next = j + k;
-		count++;
 		j = k;
 		k = next;
-
-		if (next % 2 == 0)
-		{
-			sum = sum + next;	
-		}
 
 	}
 	printf("%ld\n", sum);
