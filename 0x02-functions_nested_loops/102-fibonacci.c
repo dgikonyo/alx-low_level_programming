@@ -13,7 +13,7 @@ int main(void)
 	k = 2;
 	next = j + k;
 	printf("%lu, %lu", j, k);
-	for (i = 2; i <= 50; ++i)
+	for (i = 3; i <= 50; ++i)
 	{
 		if (j != 20365011074)
 		{
