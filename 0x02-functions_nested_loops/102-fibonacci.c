@@ -8,17 +8,17 @@
 int main(void)
 {
 	unsigned long int i, j, k, next;
-	
+
 	j = 1;
 	k = 2;
 	i = 2;
 	next = j + k;
-	printf("%lu, %lu, ", j, k);
+	printf("%lu, %lu", j, k);
 	while (i < 50)
 	{
 		next = j + k;
 		i++;
-		printf("%lu, ", next);
+		printf(", %lu", next);
 		j = k;
 		k = next;
 	}
