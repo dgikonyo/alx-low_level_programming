@@ -13,7 +13,7 @@ int main(void)
 	k = 2;
 	next = j + k;
 	printf("\n%lu, %lu, ", j, k);
-	for (i = 1; i <= 50; ++i)
+	for (i = 4; i <= 50; ++i)
 	{
 		printf("%lu, ", next);
 		j = k;
