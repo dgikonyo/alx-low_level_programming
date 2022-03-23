@@ -6,16 +6,15 @@ int main(void)
 
 	j = 1;
 	k = 2;
-	next = j + k;
-	for (count = 0; count <= 98; ++count)
+	for (count = 0; count <= 98; count++)
 	{
 		if (count == 98)
 		{
-			printf("%ld\n", next);
+			printf("%ld\n", j);
 		}
 		else
 		{
-			printf("%ld, ", next);
+			printf("%ld, ", j);
 		}
 		next = j + k;
 		j = k;
