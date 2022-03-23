@@ -7,7 +7,6 @@
 void print_times_table(int n)
 {
 	int rows, column, product;
-
 	product = 1;
 
 	if (n >= 0 && n <= 15)
