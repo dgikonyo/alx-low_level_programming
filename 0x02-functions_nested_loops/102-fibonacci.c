@@ -7,22 +7,23 @@
  */
 int main(void)
 {
-	int i, j, k, next;
+	long int i, j, k, next;
+
 
 	j = 1;
 	k = 2;
-	printf("%d, %d", j, k);
+
 	for (i = 3; i <= 50; ++i)
 	{
-		next = j + k;
 		if (j != 20365011074)
 		{
-			printf(", %d", next);
+			printf(", %d", j);
 		}
 		else
 		{
-			printf("%d\n", next);
+			printf("%d\n", j);
 		}
+		next = j + k;
 		j = k;
 		k = next;
 	}
