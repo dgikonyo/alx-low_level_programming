@@ -6,7 +6,7 @@ int main(void)
 
 	j = 1;
 	k = 2;
-	for (count = 1; count <= 98; ++count)
+	for (count = 3; count <= 98; ++count)
 	{
 		if (count == 98)
 		{
