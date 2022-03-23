@@ -11,9 +11,8 @@ int main(void)
 
 	j = 1;
 	k = 2;
-	next = j + k;
 	printf("%lu, %lu", j, k);
-	for (i = 1; i <= 50; ++i)
+	for (i = ; i <= 50; ++i)
 	{
 		if (j != 20365011074)
 		{
