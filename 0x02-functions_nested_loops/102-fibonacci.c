@@ -13,7 +13,7 @@ int main(void)
 	k = 2;
 	i = 2;
 	next = j + k;
-	printf("%lu, %lu", j, k);
+	printf(" %lu, %lu", j, k);
 	while (i < 50)
 	{
 		next = j + k;
