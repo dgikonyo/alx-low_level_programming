@@ -6,7 +6,6 @@ int main(void)
 
 	j = 1;
 	k = 2;
-
 	for (count = 1; count <= 98; ++count)
 	{
 		if (count == 98)
@@ -15,7 +14,7 @@ int main(void)
 		}
 		else
 		{
-			printf(", %ld", j);
+			printf("%ld ,", j);
 		}
 		next = j + k;
 		j = k;
