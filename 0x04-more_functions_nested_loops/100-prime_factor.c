@@ -1,46 +1,24 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_number -  checks for checks for a digit (0 through 9).
- * @n: n -  Variable
+ * main -  checks for checks for a digit (0 through 9).
+ *
  * Return: Always 0.
  */
-void prime_number(int n)
+int main(void)
 {
-	unsigned int z;
-	int m, b;
+	long x, y;
 
-	b = 10;
+	x = 612852475143;
 
-	if (n < 10 && n >= 0)
+	for (y = 2; x > y; y++)
 	{
-		_putchar (n + '0');
-	}
-	else if (n > -10 && n < 0)
-	{
-		n = n - 2 * n;
-		_putchar('-');
-		_putchar (n + '0');
-	}
-
-	else
-	{
-		if (n < 0)
+		while (x % y == 0)
 		{
-			n = n * -1;
-			_putchar ('-');
+			x = x / y;
 		}
-		z = n;
-	while (z / b > 9)
-	{
-		b = b * 10;
 	}
-	while (b > 0)
-	{
-		m = z / b;
-		z = z % b;
-		_putchar (m + '0');
-		b = b / 10;
-	}
-	}
+	printf("%lu", y);
+	putchar('\n');
+	return (0);
 }
