@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
- * @dest: string to append to
- * @src: string to add
- *
- * Return: a pointer to the resulting string
+ * *_strcat - concatenates two strings
+ * @dest: param pointer to a char
+ * @src: param pointer to a char
+ * Return: value of dest
  */
 char *_strcat(char *dest, char *src)
 {
@@ -27,6 +26,5 @@ char *_strcat(char *dest, char *src)
 	}
 
 	dest[i] = '\0';
-
 	return (dest);
 }
