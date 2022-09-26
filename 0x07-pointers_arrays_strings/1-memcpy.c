@@ -6,7 +6,7 @@
  * @src: memrory source location
  * @n: bites to be copied from memory area
  *
- * Return - will return pointer to 'dest'
+ * Return: will return pointer to 'dest'
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
