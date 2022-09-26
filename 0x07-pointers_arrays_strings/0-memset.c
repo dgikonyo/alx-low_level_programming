@@ -2,9 +2,9 @@
 
 /**
  * *_memset -  function that fills memory with a constant byte
- * @s -  memory loctoin to be filled
- * @b - value to be passed to 's'
- * @n - number of times 'b' will be repeated
+ * @s: memory loctoin to be filled
+ * @b: char to be passed to 's'
+ * @n: number of times 'b' will be repeated
  *
  * Return - pointer to the memory area 's'
  */
