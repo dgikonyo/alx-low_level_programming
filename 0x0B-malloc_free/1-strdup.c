@@ -12,22 +12,19 @@ char *_strdup(char *str)
 	char *duplicate;
 	unsigned int index, len;
 
-	index = 0;
 	len = 0;
-
-	if (str == NULL)
-		return (NULL);
-
-	while (str[len])
-		len++;
 
 	duplicate = malloc(sizeof(char) * (len + 1));
 
-	if (dup == NULL)
+	if (str == NULL || duplicate== NULL)
 		return (NULL);
 
-	while ((duplicate[index] = str[index]) != '\0')
-		index++;
+	for (index = 0; str[index]; index++)
+	{
+		duplicate[index] = str[index];
+		len++;
+	}
 
-	return (dup);
+	duplicate[len] = '\0';
+	return (duplicate);
 }
