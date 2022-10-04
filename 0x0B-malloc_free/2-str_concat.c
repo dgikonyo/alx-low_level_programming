@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		while (index < len1)
 		{
-			s3[index] = s1[index];
+			str3[index] = s1[index];
 			index++;
 		}
 	}
@@ -39,7 +39,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		while (index < (len1 + len2))
 		{
-			s3[index] = s2[j];
+			str3[index] = s2[j];
 			index++;
 			j++;
 		}
