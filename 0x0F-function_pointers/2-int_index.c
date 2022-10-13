@@ -1,5 +1,4 @@
 #include "function_pointers.h"
-#include <stdlib.h>
 
 /**
  * int_index -  returns the index of the first element for 
@@ -16,20 +15,14 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 	unsigned int index;
 
-	if (!array || !cmp)
+	if (array && cmp)
 	{
-		return;
-	}
-	else if (size <= 0)
-	{
-		return -1;
-	}
-
-	for (index = 0; index < size; index++)
-	{
-		if (cmp(array[index]) != 0)
+		for (index = 0; index < size; index++)
 		{
-			return (index);
+			if (cmp(array[index]) != 0)
+			{
+				return (index);
+			}
 		}
 	}
 }
